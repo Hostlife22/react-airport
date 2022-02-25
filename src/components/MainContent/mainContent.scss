@@ -1,0 +1,51 @@
+.table {
+  width: 100%;
+  margin-bottom: 16px;
+  color: #212529;
+  border-collapse: collapse;
+
+  &__head {
+    color: #95989a;
+    font-size: 16px;
+    font-weight: 600;
+
+    th {
+      text-align: left;
+      border: 0;
+      vertical-align: bottom;
+      padding: 12px;
+      background-color: #fff;
+
+      &:first-of-type {
+        text-align: center;
+      }
+    }
+  }
+  &__body {
+    font-size: 22px;
+
+    tr {
+      position: relative;
+      transition: box-shadow 0.23s ease;
+      &:hover {
+        -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+        box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+        z-index: 2;
+
+        .flight__details {
+          a {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    tr:nth-of-type(odd) {
+      background-color: rgba(0, 102, 135, 0.1);
+    }
+
+    tr:nth-of-type(even) {
+      background-color: #fff;
+    }
+  }
+}

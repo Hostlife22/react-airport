@@ -1,0 +1,63 @@
+.flight {
+  td {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 16px 10px;
+    border: 0;
+  }
+
+  &__terminal {
+    text-align: center;
+
+    span {
+      color: #63c745;
+      font-weight: 700;
+      border: 1px solid #63c745;
+      border-radius: 50%;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 22px;
+
+      &.blue {
+        border-color: #1eb7ee;
+        color: #1eb7ee;
+      }
+    }
+  }
+
+  &__one-airline {
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 40px;
+    text-align: center;
+    margin-right: 5px;
+
+    img {
+      max-width: 100%;
+      max-height: 95%;
+      top: 5%;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  &__no-flights {
+    height: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: #1eb7ee;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+}

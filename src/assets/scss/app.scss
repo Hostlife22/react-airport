@@ -1,0 +1,13 @@
+@import 'fonts';
+@import 'variables';
+@import 'libs/normalize';
+
+body {
+  background: #e7efec;
+}
+
+.wrapper {
+  padding: 20px 15px;
+  max-width: 940px;
+  margin: 0 auto;
+}

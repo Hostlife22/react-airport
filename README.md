@@ -1,13 +1,16 @@
-# react-pizza-site
+# react-airport
 
-### [Site link](https://serene-keller-f332c8.netlify.app/)
+### [Site link](https://62a72d3e892e41000875fc29--magical-dasik-1252a2.netlify.app/)
+
+<kbd>
+  <img align="right" alt="img" src="QDvfL8Z.jpeg"  />
+</kbd>
 
  ### 🛠 The tech stack is:
 
 
 - [React](https://reactjs.org/)
 - [React-router-dom](https://reactrouter.com/docs/en/v6/getting-started/overview)
-- [React-content-loader](https://skeletonreact.com/)
 - [Redux](https://redux.js.org/)
 - [Redux-thunk](https://redux.js.org/usage/writing-logic-thunks)
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -18,6 +21,6 @@
 - [Webpack](https://webpack.js.org/)
 - [PropTypes](https://ru.reactjs.org/docs/typechecking-with-proptypes.html)
 - [axios](https://github.com/axios/axios)
-- [json-server](https://github.com/typicode/json-server)
+
 
 

@@ -12,7 +12,7 @@ const App = () => {
   const flightQuery = searchParams.get('search') || '';
 
   useEffect(() => {
-    const currentDate = new Date('2022/02/22').toLocaleDateString();
+    const currentDate = new Date().toLocaleDateString();
 
     dispatch(setDate(currentDate));
     dispatch(getDataFlights(currentDate));
